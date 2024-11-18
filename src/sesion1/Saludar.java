@@ -1,13 +1,13 @@
 package sesion1;
 
-import java.net.StandardSocketOptions;
-
 public class Saludar {
 
-    public void  saludar(){
-        System.out.println("hola a todos desde Java");
+    public void  saludar(String nombre){
+         System.out.println("hola" + " " + nombre + " " +  "desde Java");
     }
 
+    public void nombreApellido(String nombre, String apellido){
+        System.out.println("hola" + " " + "mi nombre y apellido es: " + nombre + " " + apellido);
 
-
+    }
 }
